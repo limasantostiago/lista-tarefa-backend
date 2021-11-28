@@ -2,14 +2,22 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "lista.service.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index",
     "dev": "nodemon index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limasantostiago/lista-tarefa-backend.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/limasantostiago/lista-tarefa-backend/issues"
+  },
+  "homepage": "https://github.com/limasantostiago/lista-tarefa-backend#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
